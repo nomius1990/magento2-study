@@ -6,7 +6,7 @@
  */
 -->
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <referenceBlock name="product.info.details">
+    <referenceBlock name="product.info.details" template="Silk_Catalog::product/view/details.phtml">
         <block class="Magento\Catalog\Block\Product\View\Attributes" name="product.info.specification"  template="Silk_Catalog::product/view/specification_tab.phtml" group="detailed_info">
             <arguments>
                 <argument translate="true" name="title" xsi:type="string">Specification</argument>
